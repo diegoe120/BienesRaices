@@ -1,6 +1,7 @@
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',
+    sans-serif;
 }
 
 /** Globales **/
@@ -31,7 +32,8 @@ body {
     text-decoration: none; /** eliminia la linea que aparece debajo de los menus **/
     font-size: 18px;
     margin-right: 20px;
-    font-family: ;
+    font-family: 'Lato',
+    sans-serif;
 }
 
 .navegacion a:hover{
