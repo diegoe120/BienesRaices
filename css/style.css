@@ -12,7 +12,7 @@ body {
 
 /** Globales **/
 img{
-    max-width: 100%;
+    max-width: 100%; /** imagenes responsives **/
 }
 .contenedor {
     max-width: 120rem; /** esto es = 1200px **/
@@ -139,16 +139,46 @@ h4 {
 }
 .contenido-anuncio {
     padding: 2rem;
-}
+    }
 .contenido-anuncio h3,
 .contenido-anuncio p {
-    margin: .5rem;
+    margin: 0;
 }
 .precio {
     color: #71b100;
     font-weight: 700;
 }
+.iconos-caracteristicas {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconos-caracteristicas li {
+    flex: 1;
+    display: flex;
+}
+.iconos-caracteristicas li img {
+    margin-right: 2rem;
+}
 .ver-todas {
     display: flex;
     justify-content: flex-end;
+}
+
+/** Contacto Home **/
+.imagen-contacto {
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+.contenido-contacto {
+    flex: 1;
+    color: white;
+}
+.contenido-contacto p {
+    font-size: 1.8rem;
 }
